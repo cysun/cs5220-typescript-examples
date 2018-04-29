@@ -42,3 +42,12 @@ c.push(4);
 d.push('four');
 
 console.log(c);
+
+class Foo {
+  a: number;
+  b?: number;
+}
+
+let obj = new Foo();
+obj.a = 10;
+obj.b = undefined;
